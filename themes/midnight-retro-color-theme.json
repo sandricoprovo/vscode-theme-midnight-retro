@@ -3,22 +3,20 @@
 	"type": "dark",
 	"colors": {
 		// Menu
-		//    "menu.selectionForeground": "#fff",
-		//    "menubar.selectionBackground": "#0d3a58",
-		//    // activityBar
-		//    "activityBar.background": "#122738",
-		//    "activityBar.border": "#0d3a58",
-		//    "activityBar.dropBackground": "#0d3a58",
-		//    "activityBar.foreground": "#fff",
-		//    "activityBarBadge.background": "#ffc600",
-		//    "activityBarBadge.foreground": "#000",
+		"menu.selectionForeground": "#fff",
+		"menubar.selectionBackground": "#dc2c32",
+		// Activity bar
+		"activityBar.background": "#272629",
+		"activityBar.foreground": "#f4f5f9",
+		"activityBarBadge.background": "#dc2c32",
+		"activityBarBadge.foreground": "#f4f5f9",
 		// Badge
-		//    "badge.background": "#ffc600",
-		//    "badge.foreground": "#000",
+		"badge.background": "#dc2c32",
+		"badge.foreground": "#f4f5f9",
 		// Button
-		//    "button.background": "#0088ff",
-		//    "button.foreground": "#fff",
-		//    "button.hoverBackground": "#ff9d00",
+		"button.background": "#dc2c32",
+		"button.foreground": "#f4f5f9",
+		"button.hoverBackground": "#dc2c32aa",
 		// Contrast
 		//    "contrastBorder": "#ffffff00",
 		// Debug
@@ -37,14 +35,11 @@
 		//    "dropdown.border": "#15232d",
 		//    "dropdown.foreground": "#fff",
 		// Editor
-		// This is the main background color
 		"editor.background": "#272629",
-		// this is the main text colour
 		"editor.foreground": "#f4f5f9",
-		//    // Okay this part is confusing as heck!
-		//    // Currently found item
-		//    "editor.findMatchBackground": "#FF720066",
-		//    // Other Found Items int the document
+		// Currently found item
+		// "editor.findMatchBackground": "#27262966",
+		//    // Other Found Items in the document
 		//    "editor.findMatchHighlightBackground": "#CAD40F66",
 		//    // WTF is this one for? I don't know
 		//    "editor.findRangeHighlightBackground": "#243E51",
@@ -142,7 +137,6 @@
 		//    "list.focusForeground": "#aaa",
 		//    "list.highlightForeground": "#ffc600",
 		//    "list.hoverBackground": "#193549",
-		//    "list.hoverForeground": "#aaa",
 		//    "list.inactiveSelectionBackground": "#0d3a58",
 		//    "list.inactiveSelectionForeground": "#aaa",
 		//    // menu
@@ -187,22 +181,21 @@
 		//    // picker
 		//    "pickerGroup.border": "#0d3a58",
 		//    "pickerGroup.foreground": "#aaa",
-		//    // progressBar
-		//    "progressBar.background": "#ffc600",
-		//    // scrollbar
-		//    "scrollbar.shadow": "#00000000",
-		//    "scrollbarSlider.activeBackground": "#355166cc",
-		//    "scrollbarSlider.background": "#1F466280",
-		//    "scrollbarSlider.hoverBackground": "#406179cc",
-		//    // selection
-		//    "selection.background": "#027dff",
-		//    // sidebar
-		//    "sideBar.background": "#15232d",
-		//    "sideBar.border": "#0d3a58",
-		//    "sideBar.foreground": "#aaa",
-		//    "sideBarSectionHeader.background": "#193549",
-		//    "sideBarSectionHeader.foreground": "#aaaaaa",
-		//    "sideBarTitle.foreground": "#aaaaaa",
+		// Progress Bar
+		"progressBar.background": "#dc2c32",
+		// Scrollbar
+		"scrollbar.shadow": "#00000000",
+		"scrollbarSlider.activeBackground": "#dc2c32aa",
+		"scrollbarSlider.background": "#333742aa",
+		"scrollbarSlider.hoverBackground": "#dc2c3280",
+		// Selection
+		// "selection.background": "#dc2c32",
+		// Sidebar
+		"sideBar.background": "#272629",
+		"sideBar.foreground": "#f4f5f9",
+		"sideBarSectionHeader.background": "#272629",
+		"sideBarSectionHeader.foreground": "#aaaaaa",
+		"sideBarTitle.foreground": "#aaaaaa",
 		// Status Bar
 		"statusBar.background": "#272629",
 		// "statusBar.border": "#dc2c32",
