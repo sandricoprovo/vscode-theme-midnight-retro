@@ -1,0 +1,21 @@
+{
+    "name": "midnight-retro",
+    "displayName": "Midnight Retro",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Midnight Retro",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Midnight Retro-color-theme.json"
+            }
+        ]
+    }
+}
