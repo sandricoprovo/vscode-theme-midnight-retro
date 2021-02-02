@@ -4,19 +4,19 @@
 	"colors": {
 		// Menu
 		"menu.selectionForeground": "#fff",
-		"menubar.selectionBackground": "#dc2c32",
+		"menubar.selectionBackground": "#98e7fc",
 		// Activity bar
 		"activityBar.background": "#272629",
 		"activityBar.foreground": "#f4f5f9",
-		"activityBarBadge.background": "#dc2c32",
-		"activityBarBadge.foreground": "#f4f5f9",
+		"activityBarBadge.background": "#98e7fc",
+		"activityBarBadge.foreground": "#333742",
 		// Badge
-		"badge.background": "#dc2c32",
-		"badge.foreground": "#f4f5f9",
+		"badge.background": "#98e7fc",
+		"badge.foreground": "#333742",
 		// Button
-		"button.background": "#dc2c32",
-		"button.foreground": "#f4f5f9",
-		"button.hoverBackground": "#dc2c32aa",
+		"button.background": "#98e7fc",
+		"button.foreground": "#333742",
+		"button.hoverBackground": "#98e7fcaa",
 		// Contrast
 		//    "contrastBorder": "#ffffff00",
 		// Debug
@@ -38,42 +38,51 @@
 		"editor.background": "#272629",
 		"editor.foreground": "#f4f5f9",
 		// Currently found item
-		// "editor.findMatchBackground": "#27262966",
-		//    // Other Found Items in the document
-		//    "editor.findMatchHighlightBackground": "#CAD40F66",
-		//    // WTF is this one for? I don't know
-		//    "editor.findRangeHighlightBackground": "#243E51",
-		//    // When you hover over something and a popup shows, this highlights that thing
-		//    "editor.hoverHighlightBackground": "#ffc60033",
-		//    // when you have something selected, but have lost focus on the editor
-		//    "editor.inactiveSelectionBackground": "#003b8b",
-		//    // current line styles
-		//    "editor.lineHighlightBackground": "#1F4662",
-		//    "editor.lineHighlightBorder": "#234E6D",
-		//    "editor.rangeHighlightBackground": "#1F4662",
-		//    // selected Text colours
-		//    // This is the standard Select colour
-		//    "editor.selectionBackground": "#0050A4",
-		//    // This is the colour of the other matching elements
-		//    "editor.selectionHighlightBackground": "#0050A480",
-		//    // if you tab away you can colour it differently, but ill leave this one out
-		//    // "editor.inactiveSelectionBackground": "",
-		//    // Word Highlights! This happens when you move your cursor inside a variable
-		//    // Strong is the one where your cursor currently is
-		//    "editor.wordHighlightStrongBackground": "#ffffff21",
-		//    // and this one is the rest of them
-		//    "editor.wordHighlightBackground": "#ffffff21",
-		//    "editorBracketMatch.background": "#0d3a58",
-		//    "editorBracketMatch.border": "#ffc60080",
-		//    "editorCodeLens.foreground": "#aaa",
-		//    "editorCursor.foreground": "#ffc600",
-		//    "editorError.border": "#0d3a58",
-		//    "editorError.foreground": "#A22929",
-		//    // gutter
-		//    "editorGutter.background": "#12273866",
-		//    "editorGutter.addedBackground": "#3C9F4A",
-		//    "editorGutter.deletedBackground": "#A22929",
-		//    "editorGutter.modifiedBackground": "#26506D",
+		"editor.findMatchBackground": "#98e7fc66",
+		// Other Found Items in the document
+		"editor.findMatchHighlightBackground": "#333742",
+		// WTF is this one for? I don't know
+		"editor.findRangeHighlightBackground": "#333742",
+		// When you hover over something and a popup shows, this highlights that thing
+		"editor.hoverHighlightBackground": "#aaaaaa33",
+		// When you have something selected, but have lost focus on the editor
+		"editor.inactiveSelectionBackground": "#aaaaaa33",
+		/*
+			Current line styles
+		*/
+		"editor.lineHighlightBackground": "#333742",
+		// "editor.lineHighlightBorder": "#98e7fc99",
+		// This line below highlights items found in searches
+		"editor.rangeHighlightBackground": "#98e7fc55",
+		/*
+			Selected Text colours
+		*/
+		// This is the standard Select colour
+		"editor.selectionBackground": "#98e7fc33",
+		// This is the colour of the other matching elements
+		"editor.selectionHighlightBackground": "#98e7fc33",
+		// If you tab away you can colour it differently
+		// "editor.inactiveSelectionBackground": "",
+		/*
+			Word Highlights! This happens when you move your cursor inside a variable
+		*/
+		// Where your cursor currently is
+		"editor.wordHighlightBackground": "#ffffff21",
+		// The rest of them
+		"editor.wordHighlightStrongBackground": "#ffffff21",
+		"editorBracketMatch.background": "#272629",
+		"editorBracketMatch.border": "#FFD78D80",
+		"editorCodeLens.foreground": "#FFD78D80",
+		"editorCursor.foreground": "#ffc600",
+		"editorError.border": "#dc2c32",
+		"editorError.foreground": "#dc2c32",
+		/*
+			Gutter
+		*/
+		"editorGutter.background": "#272629",
+		"editorGutter.addedBackground": "#98e7fc",
+		"editorGutter.deletedBackground": "#dc2c32",
+		"editorGutter.modifiedBackground": "#98e7fc",
 		//    // editorGroup
 		//    "editorGroup.background": "#A22929",
 		//    "editorGroup.border": "#122738",
